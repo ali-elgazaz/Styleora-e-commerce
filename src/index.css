@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand */
+  --color-gold: #e5b96d;
+  --color-gold-bright: #f0c77d;
+  --color-gold-deep: #d6a85f;
+  --color-gold-muted: #a98952;
+
+  /* Dark surfaces (panel doubles as dark text on gold) */
+  --color-abyss: #08090a;
+  --color-ink: #0b0c0e;
+  --color-panel: #111214;
+  --color-panel-2: #17181a;
+  --color-panel-3: #151619;
+
+  /* Light surfaces */
+  --color-cream: #f8f5ef;
+  --color-paper: #faf9f6;
+  --color-paper-dim: #f1eee8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-cream);
+  color: var(--color-panel);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font: inherit;
+}
